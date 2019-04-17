@@ -1,13 +1,12 @@
 <template>
     <div>
-        <h2>Contacts</h2>
-        <router-view></router-view>
+        <h1>Async1</h1>
     </div>
 </template>
 
 <script>
 export default {
-    name:'Contacts'
+
 }
 </script>
 

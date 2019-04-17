@@ -6,7 +6,7 @@ import {appRoutes} from './routes'
 Vue.config.productionTip = false;
 
 Vue.use(vRouter);
-const appRouter=new vRouter({routes:appRoutes,mode:'history'});
+const appRouter=new vRouter({routes:appRoutes,mode:'hash'});
 
 new Vue({
   render: h => h(App),
